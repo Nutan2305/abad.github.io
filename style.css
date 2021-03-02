@@ -24,7 +24,6 @@ nav .logo{
 
 nav .menu{
     width: 40%;
-    display: flex;justify-content: space-around;
 }
 nav .menu a{
     width: 25%;
