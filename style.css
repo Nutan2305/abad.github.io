@@ -8,6 +8,7 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0,0,1));
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -23,7 +24,7 @@ nav .logo{
 
 nav .menu{
     width: 40%;
-    display: flex;justify-content: space-around;
+    justify-content: space-around;
 }
 nav .menu a{
     width: 25%;
