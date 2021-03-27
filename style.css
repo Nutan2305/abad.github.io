@@ -3,11 +3,11 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 header{
-    width: 102%;height: 100vh;
+    width: 100%;height: 100vh;
     background-image: url(abad1.jpg);
     background-image: linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0,0,1));
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     
 }
