@@ -20,11 +20,12 @@ nav{
 }
 nav .logo{
     width: 25%;text-align:center;
+    color: white;
 }
 
 nav .menu{
     width: 40%;
-    display: flex;justify-content: space-around;
+    display: flex;justify-content: space-between;
 }
 nav .menu a{
     width: 25%;
@@ -70,6 +71,20 @@ section a{
     text-decoration: none;
     letter-spacing: 1px;
     transition: all .5s ease;
+}
+section button{
+  padding: 12px 1px;
+  width: 160px;
+  margin-top: 14px;
+  /* border: none; */
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all .5s ease;
 }
 section .btnone{
     background-color: #fff;
