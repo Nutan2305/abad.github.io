@@ -25,7 +25,9 @@ nav .logo{
 
 nav .menu{
     width: 40%;
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 nav .menu a{
     width: 25%;
@@ -105,4 +107,26 @@ section .btntwo{
 }
 [class*="col-"]{
     width:100%;
+}
+@media screen and (max-width: 350px){
+    *{
+        background-size: cover;
+    }
+    nav .menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 750px){
+    *{
+        background-size: cover;
+    }
+    nav .menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
 }
