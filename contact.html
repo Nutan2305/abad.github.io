@@ -49,13 +49,37 @@
             color: lightseagreen;
         }
 
-        @media screen and (max-width:355px) {
+        @media screen and (max-width: 750px) {
             * {
                 background-size: cover;
                 width: 100%;
-                margin-left: 0px;
-                margin-right: 0px;
-                margin-bottom: 0px;
+                margin-left: 4px;
+                margin-right: 4px;
+                margin-bottom: 4px;
+            }
+            input[type=text] {
+                size:"10";
+            color: white;
+        }
+            input[type=submit],
+            input[type=reset] {
+                background-color: lightseagreen;
+                border: none;
+                color: white;
+                padding: 6px 12px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                color: black;
+                /* margin-left: 4px; */
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            * {
+                background-size: cover;
+                width: 100%;
+                margin: 0px 0px;
             }
 
             h1 {
@@ -63,20 +87,23 @@
                 height: 20px;
                 text-align: center;
                 padding-top: 6px;
+                width: 100%;
+                ;
 
             }
+
             input[type=submit],
-        input[type=reset] {
-            background-color: lightseagreen;
-            border: none;
-            color: white;
-            padding: 6px 12px;
-            text-decoration: none;
-            margin: 4px 2px;
-            cursor: pointer;
-            color: black;
-            margin-left: 10px;
-        }
+            input[type=reset] {
+                background-color: lightseagreen;
+                border: none;
+                color: white;
+                padding: 6px 12px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                color: black;
+                margin-left: 10px;
+            }
 
 
         }
